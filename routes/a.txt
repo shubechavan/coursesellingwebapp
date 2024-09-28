@@ -1,0 +1,25 @@
+const express =require("express");
+const admimiddleware=require("../middleware/admin");
+const router=express.Router();
+
+
+
+
+router.post('/signup',(req,res)=>{
+    //signup logic
+});
+
+router.post('/courses',(req,res)=>{
+    //implement  course creation logic
+});
+
+router.get('/admin/courses',(req,res)=>{
+    //implementing fetching     all course logic  
+    console.log("sd");
+     
+    res.json({
+        msg:"hi there"
+    })  
+});
+
+module.exports = router;
