@@ -8,7 +8,7 @@ This is a basic course-selling web application with user authentication and basi
 
 ## Features
 
-- **User Authentication**: Users can sign up and authenticate themselves to purchase courses.
+- **User Authentication**: Users can sign up and authenticate themselves to purchase and check courses .
 - **Course Management**: Admins can add, edit, and delete courses.
 - **Course Purchase**: Users can purchase courses and view the courses they have purchased.
 - **MongoDB Integration**: The application uses MongoDB to store user and course data.
